@@ -25,7 +25,7 @@ The 'dev' script is setup to pull an MGRPH_KEY from your bash environment. Defin
 ```
 $ export MGRPH_KEY=yourAPIkey
 
-eabef7e83392433da27b6e472237b84d (KEEP SECRET)
+eabef7e83392433da27b6e472237uuui 
 ```
 
 Finally, run the app on a local server. Application will automatically launch in your default browser:
