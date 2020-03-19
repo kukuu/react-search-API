@@ -1,3 +1,5 @@
+# Blog Auto Complete
+
 ## Getting Started
 
 These instructions will get a copy of the project running on your local machine.
