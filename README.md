@@ -1,41 +1,15 @@
-## Getting Started
+## REACT SEARCH API
 
-These instructions will get a copy of the project running on your local machine.
+The search API allows a user to query for results from a selection of data. In REACT we filter after ComponentWillMount/
 
-### Prerequisites
+REACT then decides  whether or not the component can be mounted. Then it will call SORT and then FILTER on the data. The filter method iterates over the array and applies a returned expression to every element of the array.
 
-* Node.js
+## Types of SEARCH
 
-```
-$ brew install node
-```
+1. Autocomplete:
 
-* An API key from https://developer.musicgraph.com/signup
+Also known as autosuggest or search suggest, is a feature that provides predictions as you type in a text box. It is commonly associated with search engines, though it may be used for other purposes as well. 
 
+2. Autofill:
 
-Clone the repo and install dependencies:
-
-```
-$ npm i
-```
-The 'dev' script is setup to pull an MGRPH_KEY from your bash environment. Define MGRPH_KEY:
-
-```
-$ export MGRPH_KEY=yourAPIkey
-
-eabef7e83392433da27b6e472237b84d (KEEP SECRET)
-```
-
-Finally, run the app on a local server. Application will automatically launch in your default browser:
-
-```
-$ npm run dev 
-```
-
-### More
-
-http://guides.dataverse.org/en/latest/api/search.html
-
-Extended reading 
-
-- http://guides.dataverse.org/en/latest/api/search.html
+With autofill, you can select a field in the form, choose what you autofill data you want to enter, and all fields will be filled out automatically. 
