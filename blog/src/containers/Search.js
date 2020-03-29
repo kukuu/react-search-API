@@ -3,6 +3,7 @@ import axios from 'axios'
 
 import Suggestions from 'components/Suggestions'
 
+//Store API Key as environmental variable
 const { API_KEY } = process.env
 const API_URL = 'http://api.musicgraph.com/api/v2/artist/suggest'
 
