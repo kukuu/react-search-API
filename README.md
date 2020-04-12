@@ -26,3 +26,11 @@ With autofill, you can select a field in the form, choose what you autofill data
 4. CURATIONS (Restricting Synonyms)
 
 5. RELEVANCE tuning (faking most relevant by transferring in descriptions context data across)
+
+## Applications
+
+1. Blog - https://github.com/kukuu/react-search-API/tree/master/blog
+
+2. Search List - https://github.com/kukuu/react-search-API/tree/master/search-list
+
+3. Fetchig  data - https://github.com/kukuu/react-api-fetch-data
